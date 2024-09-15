@@ -145,7 +145,7 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 .features-title{
-   font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -166,6 +166,7 @@ color: #2e2f42;
    width: 264px;
    height: 104px;
 }
+
 /* -------------Team section------------- */
 
 .team-section{
@@ -178,9 +179,19 @@ color: #2e2f42;
       text-align: center;
       color: #2e2f42;
       text-transform: capitalize;
+      padding-top: 120px;
+      padding-bottom: 72px;
+}
+.team-list{
+   display: flex;
+   gap: 24px;
+   padding-bottom: 120px;
 }
 .team-item{
    background-color: #FFFFFF;
+}
+.team-photo{
+   padding-bottom: 32px;
 }
 .team-name{
    font-weight: 500;
@@ -189,6 +200,7 @@ color: #2e2f42;
       letter-spacing: 0.02em;
       text-align: center;
       color: #2e2f42;
+      padding-bottom: 8px;
 }
 .team-dscr{
       font-size: 16px;
@@ -196,7 +208,10 @@ color: #2e2f42;
       letter-spacing: 0.02em;
       text-align: center;
       color: #434455;
+      padding-bottom: 32px;
 }
+
+/* --------------Portfolio section------------ */
 
 .portfolio-title{
    font-size: 36px;
