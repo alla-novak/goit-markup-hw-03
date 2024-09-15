@@ -21,6 +21,34 @@ p, h1, h2, h3, h4, h5, h6{
    padding: 0 15px;
    margin: 0 auto;
 }
+
+/* Header */ 
+
+.page-header{
+   border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+   display: flex;
+   align-items: center;
+}
+.header-nav{
+   display: flex;
+   align-items: center;
+}
+.nav-list{
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+.contacts-list{
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+.header-logo{
+   padding: 24px 0;
+   margin-right: 76px;
+}
 .logo{
    font-weight: 700;
    font-size: 18px;
@@ -39,12 +67,17 @@ p, h1, h2, h3, h4, h5, h6{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   padding: 24px 0;
+   display: block;
 }
       
 .contacts{
    font-style: normal;
+   margin-left: auto;
 }       
 .contacts-link {
+display: block;
+padding: 24px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -57,8 +90,12 @@ color: #434455;}
    color: #404bbf;
 }
 
+/* Title section */
+
 .title-section{
    background-color: #2e2f42;
+   align-items: center;
+   display: flex;
 }
 
 .main-title{
@@ -67,6 +104,8 @@ color: #434455;}
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff;
+   padding-top: 188px;
+   width: 496px;
 }
 .service-button{
 background-color: #4d5ae5;
@@ -76,13 +115,34 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
+margin-top: 48px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 188px;
+display: block;
+border-radius: 4px;
+width: 169px;
+height: 56px;
+
 }
 .service-button:hover,
 .service-button:focus{
    background-color: #404bbf;
 }
+
+/* -----------------Features section --------------------*/
+
 .transparent-title{
-   color:#fff;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 .features-title{
    font-weight: 500;
@@ -97,6 +157,16 @@ color: #2e2f42;
       letter-spacing: 0.02em;
       color: #434455;
 }
+.features-list{
+   display: flex;
+   gap: 24px;
+   padding: 120px 0;
+}
+.features-item{
+   width: 264px;
+   height: 104px;
+}
+/* -------------Team section------------- */
 
 .team-section{
    background-color: #f4f4fd;
